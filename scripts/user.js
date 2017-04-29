@@ -13,7 +13,7 @@ function User(gender, height, weight, age) {
 
 User.prototype.getReqsMin = function(age, gender, weight) {
 	var reqs = db_reqs.findOne({Gender:gender, Age:age});
-	reqs.Protein *= weight;
+	reqs.Protein = (reqs.Protein*weight).toFixed(1);
 	delete reqs.Gender;
 	delete reqs.Age;
 	return reqs;
