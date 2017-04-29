@@ -1,0 +1,102 @@
+[
+  {
+    "FdGrp_Cd": "0100",
+    "FdGrp_Desc": "Dairy and Egg Products"
+  },
+  {
+    "FdGrp_Cd": "0200",
+    "FdGrp_Desc": "Spices and Herbs"
+  },
+  {
+    "FdGrp_Cd": "0300",
+    "FdGrp_Desc": "Baby Foods"
+  },
+  {
+    "FdGrp_Cd": "0400",
+    "FdGrp_Desc": "Fats and Oils"
+  },
+  {
+    "FdGrp_Cd": "0500",
+    "FdGrp_Desc": "Poultry Products"
+  },
+  {
+    "FdGrp_Cd": "0600",
+    "FdGrp_Desc": "Soups, Sauces, and Gravies"
+  },
+  {
+    "FdGrp_Cd": "0700",
+    "FdGrp_Desc": "Sausages and Luncheon Meats"
+  },
+  {
+    "FdGrp_Cd": "0800",
+    "FdGrp_Desc": "Breakfast Cereals"
+  },
+  {
+    "FdGrp_Cd": "0900",
+    "FdGrp_Desc": "Fruits and Fruit Juices"
+  },
+  {
+    "FdGrp_Cd": "1000",
+    "FdGrp_Desc": "Pork Products"
+  },
+  {
+    "FdGrp_Cd": "1100",
+    "FdGrp_Desc": "Vegetables and Vegetable Products"
+  },
+  {
+    "FdGrp_Cd": "1200",
+    "FdGrp_Desc": "Nut and Seed Products"
+  },
+  {
+    "FdGrp_Cd": "1300",
+    "FdGrp_Desc": "Beef Products"
+  },
+  {
+    "FdGrp_Cd": "1400",
+    "FdGrp_Desc": "Beverages"
+  },
+  {
+    "FdGrp_Cd": "1500",
+    "FdGrp_Desc": "Finfish and Shellfish Products"
+  },
+  {
+    "FdGrp_Cd": "1600",
+    "FdGrp_Desc": "Legumes and Legume Products"
+  },
+  {
+    "FdGrp_Cd": "1700",
+    "FdGrp_Desc": "Lamb, Veal, and Game Products"
+  },
+  {
+    "FdGrp_Cd": "1800",
+    "FdGrp_Desc": "Baked Products"
+  },
+  {
+    "FdGrp_Cd": "1900",
+    "FdGrp_Desc": "Sweets"
+  },
+  {
+    "FdGrp_Cd": "2000",
+    "FdGrp_Desc": "Cereal Grains and Pasta"
+  },
+  {
+    "FdGrp_Cd": "2100",
+    "FdGrp_Desc": "Fast Foods"
+  },
+  {
+    "FdGrp_Cd": "2200",
+    "FdGrp_Desc": "Meals, Entrees, and Side Dishes"
+  },
+  {
+    "FdGrp_Cd": "2500",
+    "FdGrp_Desc": "Snacks"
+  },
+  {
+    "FdGrp_Cd": "3500",
+    "FdGrp_Desc": "American Indian/Alaska Native Foods"
+  },
+  {
+    "FdGrp_Cd": "3600",
+    "FdGrp_Desc": "Restaurant Foods"
+  }
+]

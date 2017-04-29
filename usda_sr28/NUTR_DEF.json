@@ -1,0 +1,1202 @@
+[
+  {
+    "Nutr_No": "203",
+    "Units": "g",
+    "Tagname": "PROCNT",
+    "NutrDesc": "Protein",
+    "Num_dec": "2",
+    "SR_Order": "600"
+  },
+  {
+    "Nutr_No": "204",
+    "Units": "g",
+    "Tagname": "FAT",
+    "NutrDesc": "Total lipid (fat)",
+    "Num_dec": "2",
+    "SR_Order": "800"
+  },
+  {
+    "Nutr_No": "205",
+    "Units": "g",
+    "Tagname": "CHOCDF",
+    "NutrDesc": "Carbohydrate, by difference",
+    "Num_dec": "2",
+    "SR_Order": "1100"
+  },
+  {
+    "Nutr_No": "207",
+    "Units": "g",
+    "Tagname": "ASH",
+    "NutrDesc": "Ash",
+    "Num_dec": "2",
+    "SR_Order": "1000"
+  },
+  {
+    "Nutr_No": "208",
+    "Units": "kcal",
+    "Tagname": "ENERC_KCAL",
+    "NutrDesc": "Energy",
+    "Num_dec": "0",
+    "SR_Order": "300"
+  },
+  {
+    "Nutr_No": "209",
+    "Units": "g",
+    "Tagname": "STARCH",
+    "NutrDesc": "Starch",
+    "Num_dec": "2",
+    "SR_Order": "2200"
+  },
+  {
+    "Nutr_No": "210",
+    "Units": "g",
+    "Tagname": "SUCS",
+    "NutrDesc": "Sucrose",
+    "Num_dec": "2",
+    "SR_Order": "1600"
+  },
+  {
+    "Nutr_No": "211",
+    "Units": "g",
+    "Tagname": "GLUS",
+    "NutrDesc": "Glucose (dextrose)",
+    "Num_dec": "2",
+    "SR_Order": "1700"
+  },
+  {
+    "Nutr_No": "212",
+    "Units": "g",
+    "Tagname": "FRUS",
+    "NutrDesc": "Fructose",
+    "Num_dec": "2",
+    "SR_Order": "1800"
+  },
+  {
+    "Nutr_No": "213",
+    "Units": "g",
+    "Tagname": "LACS",
+    "NutrDesc": "Lactose",
+    "Num_dec": "2",
+    "SR_Order": "1900"
+  },
+  {
+    "Nutr_No": "214",
+    "Units": "g",
+    "Tagname": "MALS",
+    "NutrDesc": "Maltose",
+    "Num_dec": "2",
+    "SR_Order": "2000"
+  },
+  {
+    "Nutr_No": "221",
+    "Units": "g",
+    "Tagname": "ALC",
+    "NutrDesc": "Alcohol, ethyl",
+    "Num_dec": "1",
+    "SR_Order": "18200"
+  },
+  {
+    "Nutr_No": "255",
+    "Units": "g",
+    "Tagname": "WATER",
+    "NutrDesc": "Water",
+    "Num_dec": "2",
+    "SR_Order": "100"
+  },
+  {
+    "Nutr_No": "257",
+    "Units": "g",
+    "Tagname": "",
+    "NutrDesc": "Adjusted Protein",
+    "Num_dec": "2",
+    "SR_Order": "700"
+  },
+  {
+    "Nutr_No": "262",
+    "Units": "mg",
+    "Tagname": "CAFFN",
+    "NutrDesc": "Caffeine",
+    "Num_dec": "0",
+    "SR_Order": "18300"
+  },
+  {
+    "Nutr_No": "263",
+    "Units": "mg",
+    "Tagname": "THEBRN",
+    "NutrDesc": "Theobromine",
+    "Num_dec": "0",
+    "SR_Order": "18400"
+  },
+  {
+    "Nutr_No": "268",
+    "Units": "kJ",
+    "Tagname": "ENERC_KJ",
+    "NutrDesc": "Energy",
+    "Num_dec": "0",
+    "SR_Order": "400"
+  },
+  {
+    "Nutr_No": "269",
+    "Units": "g",
+    "Tagname": "SUGAR",
+    "NutrDesc": "Sugars, total",
+    "Num_dec": "2",
+    "SR_Order": "1500"
+  },
+  {
+    "Nutr_No": "287",
+    "Units": "g",
+    "Tagname": "GALS",
+    "NutrDesc": "Galactose",
+    "Num_dec": "2",
+    "SR_Order": "2100"
+  },
+  {
+    "Nutr_No": "291",
+    "Units": "g",
+    "Tagname": "FIBTG",
+    "NutrDesc": "Fiber, total dietary",
+    "Num_dec": "1",
+    "SR_Order": "1200"
+  },
+  {
+    "Nutr_No": "301",
+    "Units": "mg",
+    "Tagname": "CA",
+    "NutrDesc": "Calcium, Ca",
+    "Num_dec": "0",
+    "SR_Order": "5300"
+  },
+  {
+    "Nutr_No": "303",
+    "Units": "mg",
+    "Tagname": "FE",
+    "NutrDesc": "Iron, Fe",
+    "Num_dec": "2",
+    "SR_Order": "5400"
+  },
+  {
+    "Nutr_No": "304",
+    "Units": "mg",
+    "Tagname": "MG",
+    "NutrDesc": "Magnesium, Mg",
+    "Num_dec": "0",
+    "SR_Order": "5500"
+  },
+  {
+    "Nutr_No": "305",
+    "Units": "mg",
+    "Tagname": "P",
+    "NutrDesc": "Phosphorus, P",
+    "Num_dec": "0",
+    "SR_Order": "5600"
+  },
+  {
+    "Nutr_No": "306",
+    "Units": "mg",
+    "Tagname": "K",
+    "NutrDesc": "Potassium, K",
+    "Num_dec": "0",
+    "SR_Order": "5700"
+  },
+  {
+    "Nutr_No": "307",
+    "Units": "mg",
+    "Tagname": "NA",
+    "NutrDesc": "Sodium, Na",
+    "Num_dec": "0",
+    "SR_Order": "5800"
+  },
+  {
+    "Nutr_No": "309",
+    "Units": "mg",
+    "Tagname": "ZN",
+    "NutrDesc": "Zinc, Zn",
+    "Num_dec": "2",
+    "SR_Order": "5900"
+  },
+  {
+    "Nutr_No": "312",
+    "Units": "mg",
+    "Tagname": "CU",
+    "NutrDesc": "Copper, Cu",
+    "Num_dec": "3",
+    "SR_Order": "6000"
+  },
+  {
+    "Nutr_No": "313",
+    "Units": "�g",
+    "Tagname": "FLD",
+    "NutrDesc": "Fluoride, F",
+    "Num_dec": "1",
+    "SR_Order": "6240"
+  },
+  {
+    "Nutr_No": "315",
+    "Units": "mg",
+    "Tagname": "MN",
+    "NutrDesc": "Manganese, Mn",
+    "Num_dec": "3",
+    "SR_Order": "6100"
+  },
+  {
+    "Nutr_No": "317",
+    "Units": "�g",
+    "Tagname": "SE",
+    "NutrDesc": "Selenium, Se",
+    "Num_dec": "1",
+    "SR_Order": "6200"
+  },
+  {
+    "Nutr_No": "318",
+    "Units": "IU",
+    "Tagname": "VITA_IU",
+    "NutrDesc": "Vitamin A, IU",
+    "Num_dec": "0",
+    "SR_Order": "7500"
+  },
+  {
+    "Nutr_No": "319",
+    "Units": "�g",
+    "Tagname": "RETOL",
+    "NutrDesc": "Retinol",
+    "Num_dec": "0",
+    "SR_Order": "7430"
+  },
+  {
+    "Nutr_No": "320",
+    "Units": "�g",
+    "Tagname": "VITA_RAE",
+    "NutrDesc": "Vitamin A, RAE",
+    "Num_dec": "0",
+    "SR_Order": "7420"
+  },
+  {
+    "Nutr_No": "321",
+    "Units": "�g",
+    "Tagname": "CARTB",
+    "NutrDesc": "Carotene, beta",
+    "Num_dec": "0",
+    "SR_Order": "7440"
+  },
+  {
+    "Nutr_No": "322",
+    "Units": "�g",
+    "Tagname": "CARTA",
+    "NutrDesc": "Carotene, alpha",
+    "Num_dec": "0",
+    "SR_Order": "7450"
+  },
+  {
+    "Nutr_No": "323",
+    "Units": "mg",
+    "Tagname": "TOCPHA",
+    "NutrDesc": "Vitamin E (alpha-tocopherol)",
+    "Num_dec": "2",
+    "SR_Order": "7900"
+  },
+  {
+    "Nutr_No": "324",
+    "Units": "IU",
+    "Tagname": "VITD",
+    "NutrDesc": "Vitamin D",
+    "Num_dec": "0",
+    "SR_Order": "8750"
+  },
+  {
+    "Nutr_No": "325",
+    "Units": "�g",
+    "Tagname": "ERGCAL",
+    "NutrDesc": "Vitamin D2 (ergocalciferol)",
+    "Num_dec": "1",
+    "SR_Order": "8710"
+  },
+  {
+    "Nutr_No": "326",
+    "Units": "�g",
+    "Tagname": "CHOCAL",
+    "NutrDesc": "Vitamin D3 (cholecalciferol)",
+    "Num_dec": "1",
+    "SR_Order": "8720"
+  },
+  {
+    "Nutr_No": "328",
+    "Units": "�g",
+    "Tagname": "VITD",
+    "NutrDesc": "Vitamin D (D2 + D3)",
+    "Num_dec": "1",
+    "SR_Order": "8700"
+  },
+  {
+    "Nutr_No": "334",
+    "Units": "�g",
+    "Tagname": "CRYPX",
+    "NutrDesc": "Cryptoxanthin, beta",
+    "Num_dec": "0",
+    "SR_Order": "7460"
+  },
+  {
+    "Nutr_No": "337",
+    "Units": "�g",
+    "Tagname": "LYCPN",
+    "NutrDesc": "Lycopene",
+    "Num_dec": "0",
+    "SR_Order": "7530"
+  },
+  {
+    "Nutr_No": "338",
+    "Units": "�g",
+    "Tagname": "LUT+ZEA",
+    "NutrDesc": "Lutein + zeaxanthin",
+    "Num_dec": "0",
+    "SR_Order": "7560"
+  },
+  {
+    "Nutr_No": "341",
+    "Units": "mg",
+    "Tagname": "TOCPHB",
+    "NutrDesc": "Tocopherol, beta",
+    "Num_dec": "2",
+    "SR_Order": "8000"
+  },
+  {
+    "Nutr_No": "342",
+    "Units": "mg",
+    "Tagname": "TOCPHG",
+    "NutrDesc": "Tocopherol, gamma",
+    "Num_dec": "2",
+    "SR_Order": "8100"
+  },
+  {
+    "Nutr_No": "343",
+    "Units": "mg",
+    "Tagname": "TOCPHD",
+    "NutrDesc": "Tocopherol, delta",
+    "Num_dec": "2",
+    "SR_Order": "8200"
+  },
+  {
+    "Nutr_No": "344",
+    "Units": "mg",
+    "Tagname": "TOCTRA",
+    "NutrDesc": "Tocotrienol, alpha",
+    "Num_dec": "2",
+    "SR_Order": "8300"
+  },
+  {
+    "Nutr_No": "345",
+    "Units": "mg",
+    "Tagname": "TOCTRB",
+    "NutrDesc": "Tocotrienol, beta",
+    "Num_dec": "2",
+    "SR_Order": "8400"
+  },
+  {
+    "Nutr_No": "346",
+    "Units": "mg",
+    "Tagname": "TOCTRG",
+    "NutrDesc": "Tocotrienol, gamma",
+    "Num_dec": "2",
+    "SR_Order": "8500"
+  },
+  {
+    "Nutr_No": "347",
+    "Units": "mg",
+    "Tagname": "TOCTRD",
+    "NutrDesc": "Tocotrienol, delta",
+    "Num_dec": "2",
+    "SR_Order": "8600"
+  },
+  {
+    "Nutr_No": "401",
+    "Units": "mg",
+    "Tagname": "VITC",
+    "NutrDesc": "Vitamin C, total ascorbic acid",
+    "Num_dec": "1",
+    "SR_Order": "6300"
+  },
+  {
+    "Nutr_No": "404",
+    "Units": "mg",
+    "Tagname": "THIA",
+    "NutrDesc": "Thiamin",
+    "Num_dec": "3",
+    "SR_Order": "6400"
+  },
+  {
+    "Nutr_No": "405",
+    "Units": "mg",
+    "Tagname": "RIBF",
+    "NutrDesc": "Riboflavin",
+    "Num_dec": "3",
+    "SR_Order": "6500"
+  },
+  {
+    "Nutr_No": "406",
+    "Units": "mg",
+    "Tagname": "NIA",
+    "NutrDesc": "Niacin",
+    "Num_dec": "3",
+    "SR_Order": "6600"
+  },
+  {
+    "Nutr_No": "410",
+    "Units": "mg",
+    "Tagname": "PANTAC",
+    "NutrDesc": "Pantothenic acid",
+    "Num_dec": "3",
+    "SR_Order": "6700"
+  },
+  {
+    "Nutr_No": "415",
+    "Units": "mg",
+    "Tagname": "VITB6A",
+    "NutrDesc": "Vitamin B-6",
+    "Num_dec": "3",
+    "SR_Order": "6800"
+  },
+  {
+    "Nutr_No": "417",
+    "Units": "�g",
+    "Tagname": "FOL",
+    "NutrDesc": "Folate, total",
+    "Num_dec": "0",
+    "SR_Order": "6900"
+  },
+  {
+    "Nutr_No": "418",
+    "Units": "�g",
+    "Tagname": "VITB12",
+    "NutrDesc": "Vitamin B-12",
+    "Num_dec": "2",
+    "SR_Order": "7300"
+  },
+  {
+    "Nutr_No": "421",
+    "Units": "mg",
+    "Tagname": "CHOLN",
+    "NutrDesc": "Choline, total",
+    "Num_dec": "1",
+    "SR_Order": "7220"
+  },
+  {
+    "Nutr_No": "428",
+    "Units": "�g",
+    "Tagname": "MK4",
+    "NutrDesc": "Menaquinone-4",
+    "Num_dec": "1",
+    "SR_Order": "8950"
+  },
+  {
+    "Nutr_No": "429",
+    "Units": "�g",
+    "Tagname": "VITK1D",
+    "NutrDesc": "Dihydrophylloquinone",
+    "Num_dec": "1",
+    "SR_Order": "8900"
+  },
+  {
+    "Nutr_No": "430",
+    "Units": "�g",
+    "Tagname": "VITK1",
+    "NutrDesc": "Vitamin K (phylloquinone)",
+    "Num_dec": "1",
+    "SR_Order": "8800"
+  },
+  {
+    "Nutr_No": "431",
+    "Units": "�g",
+    "Tagname": "FOLAC",
+    "NutrDesc": "Folic acid",
+    "Num_dec": "0",
+    "SR_Order": "7000"
+  },
+  {
+    "Nutr_No": "432",
+    "Units": "�g",
+    "Tagname": "FOLFD",
+    "NutrDesc": "Folate, food",
+    "Num_dec": "0",
+    "SR_Order": "7100"
+  },
+  {
+    "Nutr_No": "435",
+    "Units": "�g",
+    "Tagname": "FOLDFE",
+    "NutrDesc": "Folate, DFE",
+    "Num_dec": "0",
+    "SR_Order": "7200"
+  },
+  {
+    "Nutr_No": "454",
+    "Units": "mg",
+    "Tagname": "BETN",
+    "NutrDesc": "Betaine",
+    "Num_dec": "1",
+    "SR_Order": "7270"
+  },
+  {
+    "Nutr_No": "501",
+    "Units": "g",
+    "Tagname": "TRP_G",
+    "NutrDesc": "Tryptophan",
+    "Num_dec": "3",
+    "SR_Order": "16300"
+  },
+  {
+    "Nutr_No": "502",
+    "Units": "g",
+    "Tagname": "THR_G",
+    "NutrDesc": "Threonine",
+    "Num_dec": "3",
+    "SR_Order": "16400"
+  },
+  {
+    "Nutr_No": "503",
+    "Units": "g",
+    "Tagname": "ILE_G",
+    "NutrDesc": "Isoleucine",
+    "Num_dec": "3",
+    "SR_Order": "16500"
+  },
+  {
+    "Nutr_No": "504",
+    "Units": "g",
+    "Tagname": "LEU_G",
+    "NutrDesc": "Leucine",
+    "Num_dec": "3",
+    "SR_Order": "16600"
+  },
+  {
+    "Nutr_No": "505",
+    "Units": "g",
+    "Tagname": "LYS_G",
+    "NutrDesc": "Lysine",
+    "Num_dec": "3",
+    "SR_Order": "16700"
+  },
+  {
+    "Nutr_No": "506",
+    "Units": "g",
+    "Tagname": "MET_G",
+    "NutrDesc": "Methionine",
+    "Num_dec": "3",
+    "SR_Order": "16800"
+  },
+  {
+    "Nutr_No": "507",
+    "Units": "g",
+    "Tagname": "CYS_G",
+    "NutrDesc": "Cystine",
+    "Num_dec": "3",
+    "SR_Order": "16900"
+  },
+  {
+    "Nutr_No": "508",
+    "Units": "g",
+    "Tagname": "PHE_G",
+    "NutrDesc": "Phenylalanine",
+    "Num_dec": "3",
+    "SR_Order": "17000"
+  },
+  {
+    "Nutr_No": "509",
+    "Units": "g",
+    "Tagname": "TYR_G",
+    "NutrDesc": "Tyrosine",
+    "Num_dec": "3",
+    "SR_Order": "17100"
+  },
+  {
+    "Nutr_No": "510",
+    "Units": "g",
+    "Tagname": "VAL_G",
+    "NutrDesc": "Valine",
+    "Num_dec": "3",
+    "SR_Order": "17200"
+  },
+  {
+    "Nutr_No": "511",
+    "Units": "g",
+    "Tagname": "ARG_G",
+    "NutrDesc": "Arginine",
+    "Num_dec": "3",
+    "SR_Order": "17300"
+  },
+  {
+    "Nutr_No": "512",
+    "Units": "g",
+    "Tagname": "HISTN_G",
+    "NutrDesc": "Histidine",
+    "Num_dec": "3",
+    "SR_Order": "17400"
+  },
+  {
+    "Nutr_No": "513",
+    "Units": "g",
+    "Tagname": "ALA_G",
+    "NutrDesc": "Alanine",
+    "Num_dec": "3",
+    "SR_Order": "17500"
+  },
+  {
+    "Nutr_No": "514",
+    "Units": "g",
+    "Tagname": "ASP_G",
+    "NutrDesc": "Aspartic acid",
+    "Num_dec": "3",
+    "SR_Order": "17600"
+  },
+  {
+    "Nutr_No": "515",
+    "Units": "g",
+    "Tagname": "GLU_G",
+    "NutrDesc": "Glutamic acid",
+    "Num_dec": "3",
+    "SR_Order": "17700"
+  },
+  {
+    "Nutr_No": "516",
+    "Units": "g",
+    "Tagname": "GLY_G",
+    "NutrDesc": "Glycine",
+    "Num_dec": "3",
+    "SR_Order": "17800"
+  },
+  {
+    "Nutr_No": "517",
+    "Units": "g",
+    "Tagname": "PRO_G",
+    "NutrDesc": "Proline",
+    "Num_dec": "3",
+    "SR_Order": "17900"
+  },
+  {
+    "Nutr_No": "518",
+    "Units": "g",
+    "Tagname": "SER_G",
+    "NutrDesc": "Serine",
+    "Num_dec": "3",
+    "SR_Order": "18000"
+  },
+  {
+    "Nutr_No": "521",
+    "Units": "g",
+    "Tagname": "HYP",
+    "NutrDesc": "Hydroxyproline",
+    "Num_dec": "3",
+    "SR_Order": "18100"
+  },
+  {
+    "Nutr_No": "573",
+    "Units": "mg",
+    "Tagname": "",
+    "NutrDesc": "Vitamin E, added",
+    "Num_dec": "2",
+    "SR_Order": "7920"
+  },
+  {
+    "Nutr_No": "578",
+    "Units": "�g",
+    "Tagname": "",
+    "NutrDesc": "Vitamin B-12, added",
+    "Num_dec": "2",
+    "SR_Order": "7340"
+  },
+  {
+    "Nutr_No": "601",
+    "Units": "mg",
+    "Tagname": "CHOLE",
+    "NutrDesc": "Cholesterol",
+    "Num_dec": "0",
+    "SR_Order": "15700"
+  },
+  {
+    "Nutr_No": "605",
+    "Units": "g",
+    "Tagname": "FATRN",
+    "NutrDesc": "Fatty acids, total trans",
+    "Num_dec": "3",
+    "SR_Order": "15400"
+  },
+  {
+    "Nutr_No": "606",
+    "Units": "g",
+    "Tagname": "FASAT",
+    "NutrDesc": "Fatty acids, total saturated",
+    "Num_dec": "3",
+    "SR_Order": "9700"
+  },
+  {
+    "Nutr_No": "607",
+    "Units": "g",
+    "Tagname": "F4D0",
+    "NutrDesc": "4:0",
+    "Num_dec": "3",
+    "SR_Order": "9800"
+  },
+  {
+    "Nutr_No": "608",
+    "Units": "g",
+    "Tagname": "F6D0",
+    "NutrDesc": "6:0",
+    "Num_dec": "3",
+    "SR_Order": "9900"
+  },
+  {
+    "Nutr_No": "609",
+    "Units": "g",
+    "Tagname": "F8D0",
+    "NutrDesc": "8:0",
+    "Num_dec": "3",
+    "SR_Order": "10000"
+  },
+  {
+    "Nutr_No": "610",
+    "Units": "g",
+    "Tagname": "F10D0",
+    "NutrDesc": "10:0",
+    "Num_dec": "3",
+    "SR_Order": "10100"
+  },
+  {
+    "Nutr_No": "611",
+    "Units": "g",
+    "Tagname": "F12D0",
+    "NutrDesc": "12:0",
+    "Num_dec": "3",
+    "SR_Order": "10300"
+  },
+  {
+    "Nutr_No": "612",
+    "Units": "g",
+    "Tagname": "F14D0",
+    "NutrDesc": "14:0",
+    "Num_dec": "3",
+    "SR_Order": "10500"
+  },
+  {
+    "Nutr_No": "613",
+    "Units": "g",
+    "Tagname": "F16D0",
+    "NutrDesc": "16:0",
+    "Num_dec": "3",
+    "SR_Order": "10700"
+  },
+  {
+    "Nutr_No": "614",
+    "Units": "g",
+    "Tagname": "F18D0",
+    "NutrDesc": "18:0",
+    "Num_dec": "3",
+    "SR_Order": "10900"
+  },
+  {
+    "Nutr_No": "615",
+    "Units": "g",
+    "Tagname": "F20D0",
+    "NutrDesc": "20:0",
+    "Num_dec": "3",
+    "SR_Order": "11100"
+  },
+  {
+    "Nutr_No": "617",
+    "Units": "g",
+    "Tagname": "F18D1",
+    "NutrDesc": "18:1 undifferentiated",
+    "Num_dec": "3",
+    "SR_Order": "12100"
+  },
+  {
+    "Nutr_No": "618",
+    "Units": "g",
+    "Tagname": "F18D2",
+    "NutrDesc": "18:2 undifferentiated",
+    "Num_dec": "3",
+    "SR_Order": "13100"
+  },
+  {
+    "Nutr_No": "619",
+    "Units": "g",
+    "Tagname": "F18D3",
+    "NutrDesc": "18:3 undifferentiated",
+    "Num_dec": "3",
+    "SR_Order": "13900"
+  },
+  {
+    "Nutr_No": "620",
+    "Units": "g",
+    "Tagname": "F20D4",
+    "NutrDesc": "20:4 undifferentiated",
+    "Num_dec": "3",
+    "SR_Order": "14700"
+  },
+  {
+    "Nutr_No": "621",
+    "Units": "g",
+    "Tagname": "F22D6",
+    "NutrDesc": "22:6 n-3 (DHA)",
+    "Num_dec": "3",
+    "SR_Order": "15300"
+  },
+  {
+    "Nutr_No": "624",
+    "Units": "g",
+    "Tagname": "F22D0",
+    "NutrDesc": "22:0",
+    "Num_dec": "3",
+    "SR_Order": "11200"
+  },
+  {
+    "Nutr_No": "625",
+    "Units": "g",
+    "Tagname": "F14D1",
+    "NutrDesc": "14:1",
+    "Num_dec": "3",
+    "SR_Order": "11500"
+  },
+  {
+    "Nutr_No": "626",
+    "Units": "g",
+    "Tagname": "F16D1",
+    "NutrDesc": "16:1 undifferentiated",
+    "Num_dec": "3",
+    "SR_Order": "11700"
+  },
+  {
+    "Nutr_No": "627",
+    "Units": "g",
+    "Tagname": "F18D4",
+    "NutrDesc": "18:4",
+    "Num_dec": "3",
+    "SR_Order": "14250"
+  },
+  {
+    "Nutr_No": "628",
+    "Units": "g",
+    "Tagname": "F20D1",
+    "NutrDesc": "20:1",
+    "Num_dec": "3",
+    "SR_Order": "12400"
+  },
+  {
+    "Nutr_No": "629",
+    "Units": "g",
+    "Tagname": "F20D5",
+    "NutrDesc": "20:5 n-3 (EPA)",
+    "Num_dec": "3",
+    "SR_Order": "15000"
+  },
+  {
+    "Nutr_No": "630",
+    "Units": "g",
+    "Tagname": "F22D1",
+    "NutrDesc": "22:1 undifferentiated",
+    "Num_dec": "3",
+    "SR_Order": "12500"
+  },
+  {
+    "Nutr_No": "631",
+    "Units": "g",
+    "Tagname": "F22D5",
+    "NutrDesc": "22:5 n-3 (DPA)",
+    "Num_dec": "3",
+    "SR_Order": "15200"
+  },
+  {
+    "Nutr_No": "636",
+    "Units": "mg",
+    "Tagname": "PHYSTR",
+    "NutrDesc": "Phytosterols",
+    "Num_dec": "0",
+    "SR_Order": "15800"
+  },
+  {
+    "Nutr_No": "638",
+    "Units": "mg",
+    "Tagname": "STID7",
+    "NutrDesc": "Stigmasterol",
+    "Num_dec": "0",
+    "SR_Order": "15900"
+  },
+  {
+    "Nutr_No": "639",
+    "Units": "mg",
+    "Tagname": "CAMD5",
+    "NutrDesc": "Campesterol",
+    "Num_dec": "0",
+    "SR_Order": "16000"
+  },
+  {
+    "Nutr_No": "641",
+    "Units": "mg",
+    "Tagname": "SITSTR",
+    "NutrDesc": "Beta-sitosterol",
+    "Num_dec": "0",
+    "SR_Order": "16200"
+  },
+  {
+    "Nutr_No": "645",
+    "Units": "g",
+    "Tagname": "FAMS",
+    "NutrDesc": "Fatty acids, total monounsaturated",
+    "Num_dec": "3",
+    "SR_Order": "11400"
+  },
+  {
+    "Nutr_No": "646",
+    "Units": "g",
+    "Tagname": "FAPU",
+    "NutrDesc": "Fatty acids, total polyunsaturated",
+    "Num_dec": "3",
+    "SR_Order": "12900"
+  },
+  {
+    "Nutr_No": "652",
+    "Units": "g",
+    "Tagname": "F15D0",
+    "NutrDesc": "15:0",
+    "Num_dec": "3",
+    "SR_Order": "10600"
+  },
+  {
+    "Nutr_No": "653",
+    "Units": "g",
+    "Tagname": "F17D0",
+    "NutrDesc": "17:0",
+    "Num_dec": "3",
+    "SR_Order": "10800"
+  },
+  {
+    "Nutr_No": "654",
+    "Units": "g",
+    "Tagname": "F24D0",
+    "NutrDesc": "24:0",
+    "Num_dec": "3",
+    "SR_Order": "11300"
+  },
+  {
+    "Nutr_No": "662",
+    "Units": "g",
+    "Tagname": "F16D1T",
+    "NutrDesc": "16:1 t",
+    "Num_dec": "3",
+    "SR_Order": "11900"
+  },
+  {
+    "Nutr_No": "663",
+    "Units": "g",
+    "Tagname": "F18D1T",
+    "NutrDesc": "18:1 t",
+    "Num_dec": "3",
+    "SR_Order": "12300"
+  },
+  {
+    "Nutr_No": "664",
+    "Units": "g",
+    "Tagname": "F22D1T",
+    "NutrDesc": "22:1 t",
+    "Num_dec": "3",
+    "SR_Order": "12700"
+  },
+  {
+    "Nutr_No": "665",
+    "Units": "g",
+    "Tagname": "",
+    "NutrDesc": "18:2 t not further defined",
+    "Num_dec": "3",
+    "SR_Order": "13800"
+  },
+  {
+    "Nutr_No": "666",
+    "Units": "g",
+    "Tagname": "",
+    "NutrDesc": "18:2 i",
+    "Num_dec": "3",
+    "SR_Order": "13700"
+  },
+  {
+    "Nutr_No": "669",
+    "Units": "g",
+    "Tagname": "F18D2TT",
+    "NutrDesc": "18:2 t,t",
+    "Num_dec": "3",
+    "SR_Order": "13600"
+  },
+  {
+    "Nutr_No": "670",
+    "Units": "g",
+    "Tagname": "F18D2CLA",
+    "NutrDesc": "18:2 CLAs",
+    "Num_dec": "3",
+    "SR_Order": "13300"
+  },
+  {
+    "Nutr_No": "671",
+    "Units": "g",
+    "Tagname": "F24D1C",
+    "NutrDesc": "24:1 c",
+    "Num_dec": "3",
+    "SR_Order": "12800"
+  },
+  {
+    "Nutr_No": "672",
+    "Units": "g",
+    "Tagname": "F20D2CN6",
+    "NutrDesc": "20:2 n-6 c,c",
+    "Num_dec": "3",
+    "SR_Order": "14300"
+  },
+  {
+    "Nutr_No": "673",
+    "Units": "g",
+    "Tagname": "F16D1C",
+    "NutrDesc": "16:1 c",
+    "Num_dec": "3",
+    "SR_Order": "11800"
+  },
+  {
+    "Nutr_No": "674",
+    "Units": "g",
+    "Tagname": "F18D1C",
+    "NutrDesc": "18:1 c",
+    "Num_dec": "3",
+    "SR_Order": "12200"
+  },
+  {
+    "Nutr_No": "675",
+    "Units": "g",
+    "Tagname": "F18D2CN6",
+    "NutrDesc": "18:2 n-6 c,c",
+    "Num_dec": "3",
+    "SR_Order": "13200"
+  },
+  {
+    "Nutr_No": "676",
+    "Units": "g",
+    "Tagname": "F22D1C",
+    "NutrDesc": "22:1 c",
+    "Num_dec": "3",
+    "SR_Order": "12600"
+  },
+  {
+    "Nutr_No": "685",
+    "Units": "g",
+    "Tagname": "F18D3CN6",
+    "NutrDesc": "18:3 n-6 c,c,c",
+    "Num_dec": "3",
+    "SR_Order": "14100"
+  },
+  {
+    "Nutr_No": "687",
+    "Units": "g",
+    "Tagname": "F17D1",
+    "NutrDesc": "17:1",
+    "Num_dec": "3",
+    "SR_Order": "12000"
+  },
+  {
+    "Nutr_No": "689",
+    "Units": "g",
+    "Tagname": "F20D3",
+    "NutrDesc": "20:3 undifferentiated",
+    "Num_dec": "3",
+    "SR_Order": "14400"
+  },
+  {
+    "Nutr_No": "693",
+    "Units": "g",
+    "Tagname": "FATRNM",
+    "NutrDesc": "Fatty acids, total trans-monoenoic",
+    "Num_dec": "3",
+    "SR_Order": "15500"
+  },
+  {
+    "Nutr_No": "695",
+    "Units": "g",
+    "Tagname": "FATRNP",
+    "NutrDesc": "Fatty acids, total trans-polyenoic",
+    "Num_dec": "3",
+    "SR_Order": "15600"
+  },
+  {
+    "Nutr_No": "696",
+    "Units": "g",
+    "Tagname": "F13D0",
+    "NutrDesc": "13:0",
+    "Num_dec": "3",
+    "SR_Order": "10400"
+  },
+  {
+    "Nutr_No": "697",
+    "Units": "g",
+    "Tagname": "F15D1",
+    "NutrDesc": "15:1",
+    "Num_dec": "3",
+    "SR_Order": "11600"
+  },
+  {
+    "Nutr_No": "851",
+    "Units": "g",
+    "Tagname": "F18D3CN3",
+    "NutrDesc": "18:3 n-3 c,c,c (ALA)",
+    "Num_dec": "3",
+    "SR_Order": "14000"
+  },
+  {
+    "Nutr_No": "852",
+    "Units": "g",
+    "Tagname": "F20D3N3",
+    "NutrDesc": "20:3 n-3",
+    "Num_dec": "3",
+    "SR_Order": "14500"
+  },
+  {
+    "Nutr_No": "853",
+    "Units": "g",
+    "Tagname": "F20D3N6",
+    "NutrDesc": "20:3 n-6",
+    "Num_dec": "3",
+    "SR_Order": "14600"
+  },
+  {
+    "Nutr_No": "855",
+    "Units": "g",
+    "Tagname": "F20D4N6",
+    "NutrDesc": "20:4 n-6",
+    "Num_dec": "3",
+    "SR_Order": "14900"
+  },
+  {
+    "Nutr_No": "856",
+    "Units": "g",
+    "Tagname": "",
+    "NutrDesc": "18:3i",
+    "Num_dec": "3",
+    "SR_Order": "14200"
+  },
+  {
+    "Nutr_No": "857",
+    "Units": "g",
+    "Tagname": "F21D5",
+    "NutrDesc": "21:5",
+    "Num_dec": "3",
+    "SR_Order": "15100"
+  },
+  {
+    "Nutr_No": "858",
+    "Units": "g",
+    "Tagname": "F22D4",
+    "NutrDesc": "22:4",
+    "Num_dec": "3",
+    "SR_Order": "15160"
+  },
+  {
+    "Nutr_No": "859",
+    "Units": "g",
+    "Tagname": "F18D1TN7",
+    "NutrDesc": "18:1-11 t (18:1t n-7)",
+    "Num_dec": "3",
+    "SR_Order": "12310"
+  }
+]

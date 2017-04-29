@@ -1,0 +1,76 @@
+html {
+	min-height: 100%;
+	background: linear-gradient(to top, #556270, #4ECDC4); 
+}
+
+body {
+	font-family:helvetica;
+	padding-left:5em;
+	padding-right:5em;
+}
+
+h1 {
+	color:white;
+	text-align:center;
+	font-family:helvetica;
+}
+
+table {
+	width: 40%;
+}
+
+tr, th, td {
+	text-align:center;
+	border-bottom: 1px solid #ddd;
+	padding:12px;
+}
+
+tr:hover {
+	background-color: #f5f5f5
+}
+
+input { 
+	margin-bottom: 14px;
+}
+
+input[type=number] {
+	width: 10%;
+	text-align:center;
+	padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+	font-size:18px;
+    width: 40%;
+    background-color: #de6161;
+    color: white;
+    padding: 14px;
+    margin: 8px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #c45a5a;
+}
+
+.user_input {
+	align:center;
+	text-align:center;
+    background: rgba(255, 255, 255, 0.5);
+    width:100%;
+    padding:20px;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.31), inset 0px -1px 3px 0px rgba(0, 0, 0, 0.05), inset 0px 1px 1px 0px rgba(255, 255, 255, 0.50);
+    border-color: #c7c7c7;
+    border-radius: 3px;
+}
+
+.nutrient_reqs {
+	align:center;
+	display:inline-block;
+}

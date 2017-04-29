@@ -1,0 +1,41 @@
+<head>
+    <title>Nutrient Generator</title>
+</head>
+
+<body>
+	<h1>Nutrient Requirement Generator</h1>
+	<div class ="user_input">
+		{{>userDetails}}
+	</div>
+	<div class ="nutrient_reqs">
+		{{>nutrientReqs}}
+	</div>
+</body>
+
+<template name="userDetails">
+	<form>
+		<input type="radio" name="gender" value="Male">Male 
+		<input type="radio" name="gender" value="Female">Female<br>
+		Weight (kg):<br>
+		<input type="number" name="weight"><br>
+		Height (cm):<br>
+		<input type="number" name="height"><br>
+		Age (>=9):<br>
+		<input type="number" name="age"><br>
+		<input type="submit" value="submit">
+	</form>
+</template>
+
+<template name="nutrientReqs">
+	{{#if getNutrients}}
+	<table>
+		{{#each getNutrients}}
+		<tr>
+			<td>{{nutrient}}</td>
+			<td>{{value}}</td>
+			<td>{{unit}}</td>
+		</tr>
+		{{/each}}
+	</table>
+	{{/if}}
+</template>

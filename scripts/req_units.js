@@ -1,0 +1,30 @@
+var units = {
+    "Vitamin A": "mcg",
+    "Vitamin C": "mcg",
+    "Vitamin D": "mcg",
+    "Vitamin E": "mcg",
+    "Vitamin K": "mcg",
+    "Thiamin": "mcg",
+    "Riboflavin": "mcg",
+    "Niacin": "mcg",
+    "Vitamin B6": "mcg",
+    "Folate": "mcg",
+    "Vitamin B12": "mcg",
+    "Pantothenic Acid": "mcg",
+    "Choline": "mcg",
+    "Calcium": "mg",
+    "Chromium": "mcg",
+    "Copper": "mcg",
+    "Iron": "mg",
+    "Magnesium": "mg",
+    "Manganese": "mg",
+    "Molybdenum": "mcg",
+    "Phosphorus": "mg",
+    "Selenium": "mcg",
+    "Zinc": "mg",
+    "Potassium": "g",
+    "Sodium": "g",
+    "Chloride": "g"
+};
+
+this.units = units;
