@@ -15,8 +15,10 @@ h1 {
 	font-family:helvetica;
 }
 
-table {
-	width: 40%;
+table#user_input {
+	align:center;
+	text-align:center;
+	margin:auto;
 }
 
 tr, th, td {
@@ -34,7 +36,7 @@ input {
 }
 
 input[type=number] {
-	width: 10%;
+	width: 100%;
 	text-align:center;
 	padding: 12px;
     margin: 8px 0;

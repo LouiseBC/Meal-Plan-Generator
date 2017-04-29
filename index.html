@@ -13,17 +13,30 @@
 </body>
 
 <template name="userDetails">
+<table id="user_input">
 	<form>
-		<input type="radio" name="gender" value="Male">Male 
-		<input type="radio" name="gender" value="Female">Female<br>
-		Weight (kg):<br>
-		<input type="number" name="weight"><br>
-		Height (cm):<br>
-		<input type="number" name="height"><br>
-		Age (>=9):<br>
-		<input type="number" name="age"><br>
-		<input type="submit" value="submit">
+		<tr>
+			<th>Gender:</th>
+			<th>Age:</th>
+		</tr>
+		<tr>
+			<td><input type="radio" name="gender" value="Male">M
+				<input type="radio" name="gender" value="Female">F</td>
+			<td><input type="number" name="age"><br></td>
+		</tr>
+		<tr>
+			<th>Weight (kg):</th>
+			<th>Height (cm):</th>
+		</tr>
+		<tr>
+			<td><input type="number" name="weight"></td>
+			<td><input type="number" name="height"></td>
+		</tr>
+		<tr>
+			<td colspan=2><input type="submit" value="submit"></td>
+		</tr>
 	</form>
+</table>
 </template>
 
 <template name="nutrientReqs">
