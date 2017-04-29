@@ -16,7 +16,8 @@ if (Meteor.isClient) {
 	Template.nutrientReqs.helpers({
 		'getNutrients': function() {
 			var reqs = Session.get('nutrients');
-			reqs = _.map(reqs, function(val,key){ return {nutrient: key, value: val, unit:units[key]} });
+			var unitlist = units.findOne();
+			reqs = _.map(reqs, function(val,key){ return {nutrient: key, value: val, unit:unitlist[key]} });
 			return reqs.slice(1);
 		}
 	});
