@@ -1,17 +1,19 @@
 requirements = new Mongo.Collection('requirements');
 limits = new Mongo.Collection('limits');
+units = new Mongo.Collection('units');
 
 function User(gender, height, weight, age) {
 		this.gender = gender;
 		this.height = height;
 		this.weight = weight;
 		this.age = this.enumerateAge(age);
-		this.requirements = this.getRequirements(this.age, this.gender);
+		this.requirements = this.getRequirements(this.age, this.gender, this.weight);
 		this.limits = this.getLimits(this.age, this.gender);
 }
 
-User.prototype.getRequirements = function(age, gender) {
+User.prototype.getRequirements = function(age, gender, weight) {
 	var reqs = requirements.findOne({Gender:gender, Age:age});
+	reqs.Protein *= weight;
 	delete reqs.Gender;
 	delete reqs.Age;
 	return reqs;
