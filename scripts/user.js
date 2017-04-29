@@ -10,6 +10,20 @@ function User(gender, height, weight, age) {
 		this.limits = this.getLimits(this.age, this.gender);
 }
 
+User.prototype.getRequirements = function(age, gender) {
+	var reqs = requirements.findOne({Gender:gender, Age:age});
+	delete reqs.Gender;
+	delete reqs.Age;
+	return reqs;
+}
+
+User.prototype.getLimits = function(age, gender) {
+	var upperLimits = limits.findOne({Gender:gender, Age:age});
+	delete upperLimits.Gender;
+	delete upperLimits.Age;
+	return upperLimits;
+}
+
 User.prototype.enumerateAge = function(age) {
 	var ages = {
 		TWEEN: 0,
@@ -38,20 +52,6 @@ User.prototype.enumerateAge = function(age) {
 	else {
 		return ages.ELDER
 	}
-}
-
-User.prototype.getRequirements = function(age, gender) {
-	var reqs = requirements.findOne({Gender:gender, Age:age});
-	delete reqs.Gender;
-	delete reqs.Age;
-	return reqs;
-}
-
-User.prototype.getLimits = function(age, gender) {
-	var upperLimits = limits.findOne({Gender:gender, Age:age});
-	delete upperLimits.Gender;
-	delete upperLimits.Age;
-	return upperLimits;
 }
 
 this.User = User;

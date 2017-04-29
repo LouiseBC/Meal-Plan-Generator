@@ -10,7 +10,7 @@ var units = {
     "Pyridoxine (B6)": "mg",
     "Folate": "mcg",
     "Vitamin B12": "mcg",
-    "Pantothenic Acid (B4)": "mg",
+    "Pantothenic Acid (B5)": "mg",
     "Calcium": "mg",
     "Chromium": "mcg",
     "Copper": "mcg",
