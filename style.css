@@ -1,12 +1,9 @@
 html {
 	min-height: 100%;
 	background: linear-gradient(to top, #556270, #4ECDC4); 
-}
-
-body {
 	font-family:helvetica;
-	padding-left:5em;
-	padding-right:5em;
+	padding-left:10em;
+	padding-right:10em;
 }
 
 h1 {
@@ -22,12 +19,16 @@ table#user_input {
 }
 
 tr, th, td {
-	text-align:center;
-	border-bottom: 1px solid #ddd;
-	padding:12px;
+	padding:3px;
 }
 
-tr:hover {
+table#nutrient_reqs {
+	border-radius:2px;
+	margin-top:14px;
+	background-color:rgba(255, 255, 255, 0.5);
+}
+
+tr#nutrient_reqs:hover {
 	background-color: #f5f5f5
 }
 
