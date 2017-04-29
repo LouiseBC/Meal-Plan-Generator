@@ -40,9 +40,9 @@
 </template>
 
 <template name="nutrientReqs">
-	{{#if getNutrients}}
+	{{#if getReqsMin}}
 	<table id="nutrient_reqs">
-		{{#each getNutrients}}
+		{{#each getReqsMin}}
 		<tr>
 			<td>{{nutrient}}</td>
 			<td>{{value}}</td>

@@ -7,11 +7,11 @@ function User(gender, height, weight, age) {
 		this.height = height;
 		this.weight = weight;
 		this.age = this.enumerateAge(age);
-		this.requirements = this.getRequirements(this.age, this.gender, this.weight);
-		this.limits = this.getLimits(this.age, this.gender);
+		this.reqsMin = this.getReqsMin(this.age, this.gender, this.weight);
+		this.reqsMax = this.getReqsMax(this.age, this.gender);
 }
 
-User.prototype.getRequirements = function(age, gender, weight) {
+User.prototype.getReqsMin = function(age, gender, weight) {
 	var reqs = db_reqs.findOne({Gender:gender, Age:age});
 	reqs.Protein *= weight;
 	delete reqs.Gender;
@@ -19,11 +19,11 @@ User.prototype.getRequirements = function(age, gender, weight) {
 	return reqs;
 }
 
-User.prototype.getLimits = function(age, gender) {
-	var upperLimits = db_limits.findOne({Gender:gender, Age:age});
-	delete upperLimits.Gender;
-	delete upperLimits.Age;
-	return upperLimits;
+User.prototype.getReqsMax = function(age, gender) {
+	var reqs = db_limits.findOne({Gender:gender, Age:age});
+	delete reqs.Gender;
+	delete reqs.Age;
+	return reqs;
 }
 
 User.prototype.enumerateAge = function(age) {
