@@ -14,9 +14,30 @@ function User(gender, height, weight, age) {
 User.prototype.getReqsMin = function(age, gender, weight) {
 	var reqs = db_reqs.findOne({Gender:gender, Age:age});
 	reqs.Protein = (reqs.Protein*weight).toFixed(1);
+	reqs.Calories = this.calcCalories();
 	delete reqs.Gender;
 	delete reqs.Age;
 	return reqs;
+}
+
+User.prototype.calcCalories = function() {
+	// BMR Calculated using the Mifflin St Jeor formula
+    var calories = 10 * this.weight + 6.25 * this.height - 5 * this.age;
+    this.gender=="Female" ? calories -= 161 : calories += 5;
+    
+    /*
+    // Multiply by activity factor
+    var m = 0;
+    switch(activityLvl) {
+        case activity::low: m = 1.2; break;
+        case activity::mild: m = 1.375; break;
+        case activity::mod: m = 1.55; break;
+        case activity::high: m = 1.7; break;
+        case activity::extreme: m = 1.9; break;
+    }
+    calories *= m;
+    */
+    return calories.toFixed(0);
 }
 
 User.prototype.getReqsMax = function(age, gender) {
