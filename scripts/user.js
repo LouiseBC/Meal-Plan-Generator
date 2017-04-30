@@ -2,10 +2,11 @@ db_reqs = new Mongo.Collection('requirements');
 db_limits = new Mongo.Collection('limits');
 db_units = new Mongo.Collection('units');
 
-function User(gender, height, weight, age) {
+function User(gender, height, weight, age, activity) {
 		this.gender = gender;
 		this.height = height;
 		this.weight = weight;
+		this.activity = activity;
 		this.age = this.enumerateAge(age);
 		this.reqsMin = this.getReqsMin(this.age, this.gender, this.weight);
 		this.reqsMax = this.getReqsMax(this.age, this.gender);
@@ -25,18 +26,17 @@ User.prototype.calcCalories = function() {
     var calories = 10 * this.weight + 6.25 * this.height - 5 * this.age;
     this.gender=="Female" ? calories -= 161 : calories += 5;
     
-    /*
     // Multiply by activity factor
     var m = 0;
-    switch(activityLvl) {
-        case activity::low: m = 1.2; break;
-        case activity::mild: m = 1.375; break;
-        case activity::mod: m = 1.55; break;
-        case activity::high: m = 1.7; break;
-        case activity::extreme: m = 1.9; break;
+    switch(this.activity) {
+        case "sedentary": m = 1.2; break;
+        case "light": m = 1.375; break;
+        case "moderate": m = 1.55; break;
+        case "very": m = 1.725; break;
+        case "extreme": m = 1.9; break;
     }
     calories *= m;
-    */
+    
     return calories.toFixed(0);
 }
 

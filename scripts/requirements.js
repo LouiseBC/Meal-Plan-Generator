@@ -6,8 +6,9 @@ if (Meteor.isClient) {
 			var weight = event.target.weight.value;
 			var height = event.target.height.value;
 			var age = event.target.age.value;
+			var activity = event.target.activity.value;
 			if (gender && weight && height && age) {
-				var user = new User(gender, height, weight, age);
+				var user = new User(gender, height, weight, age, activity);
 				Session.set('reqsMin', user.reqsMin);
 			}
 		}
