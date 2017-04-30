@@ -54,12 +54,19 @@
 </template>
 
 <template name="nutrientReqs">
-	{{#if getReqsMin}}
+	{{#if getReqs}}
 	<table id="nutrient_reqs">
-		{{#each getReqsMin}}
+		<tr>
+			<th>Nutrient</th>
+			<th>Min</th>
+			<th>Max</th>
+			<th>Unit</th>
+		</tr>
+		{{#each getReqs}}
 		<tr>
 			<td>{{nutrient}}</td>
 			<td>{{value}}</td>
+			<td>{{maxVal}}</td>
 			<td>{{unit}}</td>
 		</tr>
 		{{/each}}
