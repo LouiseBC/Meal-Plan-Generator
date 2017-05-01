@@ -21,6 +21,13 @@ User.prototype.getReqsMin = function(age, gender, weight) {
 	return reqs;
 }
 
+User.prototype.getReqsMax = function(age, gender) {
+	var reqs = db_limits.findOne({Gender:gender, Age:age});
+	delete reqs.Gender;
+	delete reqs.Age;
+	return reqs;
+}
+
 User.prototype.calcCalories = function() {
 	// BMR Calculated using the Mifflin St Jeor formula
     var calories = 10 * this.weight + 6.25 * this.height - 5 * this.age;
@@ -38,13 +45,6 @@ User.prototype.calcCalories = function() {
     calories *= m;
     
     return calories.toFixed(0);
-}
-
-User.prototype.getReqsMax = function(age, gender) {
-	var reqs = db_limits.findOne({Gender:gender, Age:age});
-	delete reqs.Gender;
-	delete reqs.Age;
-	return reqs;
 }
 
 User.prototype.enumerateAge = function(age) {
