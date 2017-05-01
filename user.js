@@ -8,30 +8,31 @@ function User(gender, height, weight, age, activity) {
 		this.weight = weight;
 		this.activity = activity;
 		this.age = this.enumerateAge(age);
-		this.reqsMin = this.getReqsMin(this.age, this.gender, this.weight);
-		this.reqsMax = this.getReqsMax(this.age, this.gender);
+		this.reqsMin = this.getReqsMin(age);
+		this.reqsMax = this.getReqsMax();
 }
 
-User.prototype.getReqsMin = function(age, gender, weight) {
-	var reqs = db_reqs.findOne({Gender:gender, Age:age});
-	reqs.Protein = (reqs.Protein*weight).toFixed(1);
-	reqs.Calories = this.calcCalories();
+User.prototype.getReqsMin = function(actualAge) {
+	var reqs = db_reqs.findOne({Gender:this.gender, Age:this.age});
+	reqs.Protein = (reqs.Protein*this.weight).toFixed(1);
+	reqs.Calories = this.calcCalories(actualAge);
 	delete reqs.Gender;
 	delete reqs.Age;
 	return reqs;
 }
 
-User.prototype.getReqsMax = function(age, gender) {
-	var reqs = db_limits.findOne({Gender:gender, Age:age});
+User.prototype.getReqsMax = function() {
+	var reqs = db_limits.findOne({Gender:this.gender, Age:this.age});
 	delete reqs.Gender;
 	delete reqs.Age;
 	return reqs;
 }
 
-User.prototype.calcCalories = function() {
+User.prototype.calcCalories = function(age) {
 	// BMR Calculated using the Mifflin St Jeor formula
-    var calories = 10 * this.weight + 6.25 * this.height - 5 * this.age;
+    var calories = (10 * this.weight) + (6.25 * this.height) - (5 * age);
     this.gender=="Female" ? calories -= 161 : calories += 5;
+    
     
     // Multiply by activity factor
     var m = 0;
