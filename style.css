@@ -2,8 +2,8 @@ html {
 	min-height: 100%;
 	background: linear-gradient(to top, #556270, #4ECDC4); 
 	font-family:helvetica;
-	padding-left:10em;
-	padding-right:10em;
+	padding-left:5em;
+	padding-right:5em;
 }
 
 h1 {
@@ -13,7 +13,6 @@ h1 {
 }
 
 table#user_input {
-	align:center;
 	text-align:center;
 	margin:auto;
 }
@@ -21,8 +20,14 @@ table#user_input {
 tr, th, td {
 	padding:3px;
 }
+th#type {
+	background-color:rgba(255, 255, 255, 0.5);
+}
 
 table#nutrient_reqs {
+	width:30%;
+	margin-right:10px;
+	float:left;
 	border-radius:2px;
 	margin-top:14px;
 	background-color:rgba(255, 255, 255, 0.5);
@@ -63,7 +68,6 @@ input[type=submit]:hover {
 }
 
 .user_input {
-	align:center;
 	text-align:center;
     background: rgba(255, 255, 255, 0.5);
     width:100%;
@@ -71,9 +75,4 @@ input[type=submit]:hover {
     box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.31), inset 0px -1px 3px 0px rgba(0, 0, 0, 0.05), inset 0px 1px 1px 0px rgba(255, 255, 255, 0.50);
     border-color: #c7c7c7;
     border-radius: 3px;
-}
-
-.nutrient_reqs {
-	align:center;
-	display:inline-block;
 }

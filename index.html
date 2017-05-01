@@ -55,21 +55,26 @@
 
 <template name="nutrientReqs">
 	{{#if getReqs}}
+	{{#each getReqs}}
 	<table id="nutrient_reqs">
+		<tr>
+			<th colspan=4 id="type">{{type}}</th>
+		</tr>
 		<tr>
 			<th>Nutrient</th>
 			<th>Min</th>
 			<th>Max</th>
 			<th>Unit</th>
 		</tr>
-		{{#each getReqs}}
+		{{#each list}}
 		<tr>
 			<td>{{nutrient}}</td>
-			<td>{{value}}</td>
+			<td>{{minVal}}</td>
 			<td>{{maxVal}}</td>
 			<td>{{unit}}</td>
 		</tr>
 		{{/each}}
 	</table>
+	{{/each}}
 	{{/if}}
 </template>
