@@ -20,13 +20,13 @@ Template.nutrientReqs.helpers({
 		var max = Session.get('reqsMax');
 		if (min) {
 			var units = db_units.findOne();
-			
+
 			// Transform to array of objects and split into categories for better viewing
-			nutlist = _.map(min, function(val,key){ return {nutrient: key, minVal: val, maxVal:(max[key]>="0"?max[key]:"-"), unit:units[key]} });
+			var nutlist = _.map(min, function(val,key){ return {nutrient: key, minVal: val, maxVal:(max[key]>="0"?max[key]:"-"), unit:units[key]} });
 			var minerals = nutlist.findIndex(function(e){ return e.nutrient == "Calcium"; });
 			var macros = nutlist.findIndex(function(e){ return e.nutrient == "Protein"; });
 			return [{type:'Macronutrients', list:nutlist.slice(macros)},
-					{type:'Vitamins', list:nutlist.slice(1, minerals)}, 
+					{type:'Vitamins', list:nutlist.slice(1, minerals)},
 					{type:'Minerals', list:nutlist.slice(minerals, macros)} ];
 		};
 	}
