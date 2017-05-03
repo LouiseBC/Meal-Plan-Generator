@@ -16,6 +16,7 @@ Template.userDetails.events({
 		if (gender && weight && height && age) {
 			var user = new User(gender, height, weight, age, activity);
 			Session.set('user', user);
+			Meteor.call('generateMenu', user);
 		}
 	}
 });
