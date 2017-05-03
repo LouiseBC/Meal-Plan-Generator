@@ -1,3 +1,10 @@
+Template.userDetails.onCreated(function() {
+	Meteor.subscribe('requirements');
+	Meteor.subscribe('limits');
+	Meteor.subscribe('units');
+	Meteor.subscribe('nutNos');
+})
+
 Template.userDetails.events({
 	'submit form': function(event) {
 		event.preventDefault();
