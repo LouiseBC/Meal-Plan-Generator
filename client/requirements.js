@@ -15,26 +15,31 @@ Template.userDetails.events({
 		var activity = event.target.activity.value;
 		if (gender && weight && height && age) {
 			var user = new User(gender, height, weight, age, activity);
-			Session.set('reqsMin', user.reqsMin);
-			Session.set('reqsMax', user.reqsMax);
+			Session.set('user', user);
 		}
 	}
 });
 
 Template.nutrientReqs.helpers({
 	'getReqs': function() {
-		var min = Session.get('reqsMin');
-		var max = Session.get('reqsMax');
-		if (min) {
+		var user = Session.get('user');
+		if (user) {
 			var units = db_units.findOne();
 
-			// Transform to array of objects and split into categories for better viewing
-			var nutlist = _.map(min, function(val,key){ return {nutrient: key, minVal: val, maxVal:(max[key]>="0"?max[key]:"-"), unit:units[key]} });
+			// Combine all data into array of objects
+			var nutlist = _.map(user.reqsMin, function(val,key){ return {
+				nutrient: key,
+				minVal: val,
+				maxVal:(user.reqsMax[key]>="0"?user.reqsMax[key]:"-"),
+				unit:units[key]}
+			});
+
+			// Split into categories for better viewing
 			var minerals = nutlist.findIndex(function(e){ return e.nutrient == "Calcium"; });
 			var macros = nutlist.findIndex(function(e){ return e.nutrient == "Protein"; });
-			return [{type:'Macronutrients', list:nutlist.slice(macros)},
-					{type:'Vitamins', list:nutlist.slice(1, minerals)},
-					{type:'Minerals', list:nutlist.slice(minerals, macros)} ];
+			return [	{type:'Macronutrients', list:nutlist.slice(macros)},
+						{type:'Vitamins', list:nutlist.slice(1, minerals)},
+						{type:'Minerals', list:nutlist.slice(minerals, macros)}	];
 		};
 	}
 });
